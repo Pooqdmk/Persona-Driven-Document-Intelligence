@@ -1,0 +1,1 @@
+Summarize the empirical findings on LLM hallucination behaviors in financial tasks and evaluate the efficacy of proposed mitigation methods, particularly RAG and prompt-based tool learning.

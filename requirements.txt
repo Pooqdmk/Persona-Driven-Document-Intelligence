@@ -1,0 +1,6 @@
+pdfplumber==0.10.1 # Or the version you tested with
+# Add other libraries here as you use them for Round 1B, e.g.:
+# transformers==4.30.0
+# sentence-transformers==2.2.2
+# numpy # often a dependency of other libraries, good to include if you use it directly
+# scikit-learn # if you use any ML utilities from it
