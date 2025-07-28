@@ -47,20 +47,23 @@ The solution is engineered with specific technical constraints in mind to ensure
 
 ### Project Structure
 Ensure your project directory is organized as follows:
+```
 ├── Persona-Driven-Document-Intelligence/
-│   ├── main.py                     # Main application logic
-│   ├── Dockerfile                  # Docker image definition
-│   ├── .dockerignore               # Files/folders to exclude from Docker build
-│   ├── requirements.txt            # Python dependencies
-│   ├── README.md                   # This file
-│   │
-│   ├── input/                      # Directory for input files
-│   │   ├── document1.pdf           # Input PDF documents (e.g., 3-10 related PDFs)
+│   ├── main.py                  # Main application logic
+│   ├── Dockerfile               # Docker image definition
+│   ├── .dockerignore            # Files/folders to exclude from Docker build
+│   ├── requirements.txt         # Python dependencies
+│   ├── README.md                # This file
+│
+│   ├── input/                   # Directory for input files
+│   │   ├── document1.pdf        # Input PDF documents (3–10 related PDFs)
 │   │   ├── document2.pdf
-│   │   ├── persona.txt             # Text file defining the user persona
-│   │   └── job_to_be_done.txt      # Text file defining the user's task
-│   │
-│   └── output/                     # Directory for generated JSON results
+│   │   ├── persona.txt          # Defines the user persona (role/expertise)
+│   │   └── job_to_be_done.txt   # Defines the user's task (goal/action)
+│
+│   └── output/                  # Directory for generated JSON results
+│       └── challenge1b_output.json
+```
 ### 1. Place Input Files
 * Place all your PDF documents (e.g., `LLMs in Finance.pdf`, `Grounding LLMs.pdf`), the `persona.txt` file (containing the persona description), and the `job_to_be_done.txt` file (containing the job description) into the `input/` directory within your project's root.
 
